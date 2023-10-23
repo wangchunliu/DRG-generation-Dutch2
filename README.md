@@ -1,11 +1,11 @@
 
-This repository based on the [code](https://github.com/UKPLab/emnlp2019-dualgraph).
+This repository is based on the [code](https://github.com/UKPLab/emnlp2019-dualgraph).
 Different from their work, this repository focuses on the DRG-to-text generation task. 
-[Another repository](https://github.com/wangchunliu/DRG-generation-Dutch) is its sister, where includes the poster for CLIN 32 conference.
+[Another repository](https://github.com/wangchunliu/DRG-generation-Dutch) is its sister, which includes the poster for CLIN 32 conference.
 
 ## Environments and Dependencies
 
-- python 3.6
+- Python 3.6
 - PyTorch 1.5.0
 
 ## Datasets
@@ -22,7 +22,7 @@ sh preprocess_nl.sh
 
 
 ## Training
-For traning the model using the DRG dataset, execute:
+For training the model using the DRG dataset, execute:
 
 ```
 ./train_sh.sh <gpu_id> <gnn_type> <gnn_layers> <start_decay_steps> <decay_steps>
@@ -49,22 +49,15 @@ sh decode_nl.sh 0 model_ggnn.pt test.txt-src-nodes.txt test.txt-src-node1.txt te
 ```
 
 
-## Reference
+## Cite
 
-```
-@inproceedings{ribeiro-etal-2019-dualgraph,
-    title = "Enhancing {AMR}-to-Text Generation with Dual Graph Representations",
-    author = "Ribeiro, Leonardo F. R.  and
-      Gardent, Claire  and
-      Gurevych, Iryna",
-    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
-    month = nov,
-    year = "2019",
-    address = "Hong Kong, China",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/D19-1314",
-    pages = "3174--3185",
+@article{wang-2022-dutch-compare,
+  title={Comparing Neural Meaning-to-Text Approaches for Dutch},
+  author={Wang, Chunliu and
+      Bos, Johan},
+  journal={Computational Linguistics in the Netherlands Journal},
+  volume={12},
+  pages={269–286},
+  year={2022}
 }
-```
-
 
