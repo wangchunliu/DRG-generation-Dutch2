@@ -1,0 +1,2 @@
+male.n.02 Name "Tom" play.v.01 Agent -1 Time +1 Theme +2 time.n.08 EQU now hockey.n.01
+NEGATION -1 dolphin.n.02 NEGATION -1 mammal.n.01 terra_incognita.n.01 EQU -2 EQU -1
