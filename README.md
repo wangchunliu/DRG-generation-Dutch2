@@ -50,7 +50,7 @@ sh decode_nl.sh 0 model_ggnn.pt test.txt-src-nodes.txt test.txt-src-node1.txt te
 
 
 ## Cite
-
+```
 @article{wang-2022-dutch-compare,
   title={Comparing Neural Meaning-to-Text Approaches for Dutch},
   author={Wang, Chunliu and
@@ -60,4 +60,4 @@ sh decode_nl.sh 0 model_ggnn.pt test.txt-src-nodes.txt test.txt-src-node1.txt te
   pages={269–286},
   year={2022}
 }
-
+```
